@@ -1,1 +1,1 @@
-# logica_programacao_Java
+# logica_programacao_VisualG_JAVA
