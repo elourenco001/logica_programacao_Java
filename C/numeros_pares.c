@@ -1,21 +1,21 @@
-#include <stdio.h>
+#include <stdio.h> // entrada de biblioteca
 
-int main() {
-    int N, i, pares, qtd = 0;
-    int vet[10];
+int main() { // Abrir a classe com main(){}
+    int N, i, pares, qtd = 0; // forma de declarar as variaveis
+    int vet[10]; // forma de declarar um vetor
 
-    printf("Quantos numeros voce vai digitar? : ");
-    scanf("%d", &N);
+    printf("Quantos numeros voce vai digitar? : "); // forma de solicitar ao usuario escrita na tela
+    scanf("%d", &N); // armazenar na variavel 
 
-    for (i = 0; i < N; i++) {
-        printf("Digite um numero: ");
-        scanf("%d", &vet[i]);
+    for (i = 0; i < N; i++) { // VisualG para / for em C
+        printf("Digite um numero: "); // escreval Visualg -- printf C
+        scanf("%d", &vet[i]);  // leia VisualG -- scanf C
     }
 
     printf("\n");
 
-    for (i = 0; i < N; i++) {
-        if (vet[i] % 2 == 0) {
+    for (i = 0; i < N; i++) {  // para VisualG -- for C
+        if (vet[i] % 2 == 0) {  // Se VisualG -- if C
             pares = vet[i];
             printf("%d ", pares);
             qtd++;

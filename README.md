@@ -1,4 +1,4 @@
-# logica_programacao_VisualG_JAVA
+# logica_programacao_VisualG_C_JAVA
 
 ![Logo de Logica](https://blog.dankicode.com/wp-content/uploads/2019/08/logica-de-programac%CC%A7a%CC%83o-para-iniciantes-650x350.png)
 
