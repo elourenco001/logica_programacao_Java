@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "delegua",
+            "request": "launch",
+            "name": "ALTURA.ALG",
+            "program": "${workspaceFolder}/${command:AskForProgramName}",
+            "stopOnEntry": false
+        },
+        {
+            "name": "Execução do arquivo atual",
+            "request": "launch",
+            "type": "delegua",
+            "program": "${file}"
+        }
+    ]
+}
