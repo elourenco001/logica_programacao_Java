@@ -4,7 +4,7 @@
 int main(){
 
     int N,i,soma,contPares = 0;
-    double media;
+    float media;
     int vet[99];
 
 printf("Quantos elementos vai ter o vetor? ");
@@ -12,7 +12,7 @@ scanf("%d",&N);
 
 for (i = 0; i < N; i++){
     printf("Digite um numero: ");
-    scanf("%d",&vet[i]);
+    scanf("%d", &vet[i]);
 
 }
 
@@ -26,7 +26,7 @@ for (i = 0; i < N; i++){
 if (contPares == 0){
     printf("\nNENHUM NUMERO PAR");
     if (media == soma / contPares){
-        printf("\n MEDIA DOS PARES: %lf",media);
+        printf("\n MEDIA DOS PARES: %f",media);
 
     }
   }
