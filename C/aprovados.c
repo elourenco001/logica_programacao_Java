@@ -14,7 +14,9 @@ scanf("%d", &N);
 
 for (i = 0; i < N; i++){
     printf("Digite nome, primeira e segunda nota do Aluno: \n");
-    scanf("%s %f %f", nome[i], &nota1[i], &nota2[i]);
+    scanf("%s %f %f", nome[i], &nota1[i], &nota2[i]); // sempre que houver entrada de nome, apenas a digitacao do primeiro nome. Caso digite um sobrenome, o programa ira entender que estamos dando entrada <--
+    // de dois nomes ao mesmo tempo.
+    // "%s", nome[i]<-- Em casos de Vetor Char nao inserir '&' no scanf para nao gerar erro durante a copilacao
 
 }
 

@@ -28,7 +28,7 @@ if (vetIdades[i] > maior){
   }
 }
 
-printf("PESSOAS MAIS VELHAS: %s", vetNomes[posMaior]);
+printf("\nPESSOAS MAIS VELHAS: %s", vetNomes[posMaior]);
 
     return 0;
 }
