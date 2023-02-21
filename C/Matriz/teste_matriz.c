@@ -5,7 +5,7 @@
 
 int main(){
 
-    int L, C, i, j;
+    int L, C, i, j; // L = Linhas ** C = Colunas
     int mat[4][4];
 
     printf("Quantas linhas vai ter a Matriz? ");
